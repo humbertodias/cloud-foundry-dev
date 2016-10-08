@@ -48,15 +48,10 @@ Finally, access your Pivotal User profile to take your API Token
 
 ![Pivotal User Profile](doc/pcf-user-profile.png)
 
+API Token
+
 ![Pivotal User Profile](doc/pcf-api-token.png)
 
-
-
-## Running
-
-```
-vagrant up
-```
 
 ## Output
 ```
