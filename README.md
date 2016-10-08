@@ -9,6 +9,7 @@ PCF Dev is the simplest way to get a complete Cloud Foundry on a single machine.
 2. VirtualBox 5+
 3. Vagrant 1.8+
 4. Cloud Foundry Command Line Interface 6+
+5. Pivotal Account
 
 ## How to Play
 
@@ -42,7 +43,7 @@ or
 unzip pcfdev-v0.20.0+PCF1.8.0-windows.zip && pcfdev-v0.20.0+PCF1.8.0-windows.exe && cf dev start
 ```
 
-Finally, access your Pivotal User profile to take your API Token
+Finally, access your Pivotal User profile to take the API Token
 
 [https://network.pivotal.io/users/dashboard/edit-profile](https://network.pivotal.io/users/dashboard/edit-profile)
 
