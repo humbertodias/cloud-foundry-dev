@@ -55,6 +55,7 @@ API Token
 
 
 ## Output
+
 ```
 Starting VM...
 Provisioning VM...
@@ -79,10 +80,6 @@ Admin user => Email: admin / Password: admin
 Regular user => Email: user / Password: pass
 ```
 
-## Output
-
-![Preview](doc/cf-login.png)
-
 ## Infomation
 
 Acess on browser [http://api.local.pcfdev.io/v2/info](http://api.local.pcfdev.io/v2/info)
@@ -101,7 +98,12 @@ ssh vcap@ssh.local.pcfdev.io
 Use **vcap** as user and password.
 
 ```
-ssh vcap@ssh.local.pcfdev.io
+SSH_USER=vcap
+SSH_PASS=vcap
+SSH_HOST=ssh.local.pcfdev.io
+
+ssh $SSH_USER@$SSH_HOST
+
 vcap@ssh.local.pcfdev.io's password: 
 Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.19.0-69-generic x86_64)
 
@@ -113,6 +115,34 @@ Linux agent-id-pcfdev-0 3.19.0-69-generic #77~14.04.1-Ubuntu SMP Tue Aug 30 01:2
 ```
 
 
+# UAA Server
+
+User Account and Authentication
+
+```
+ADMIN=admin
+ADMINPASSWD=admin-client-secret
+
+# localhost deployed UAA
+UAAHOST=https://uaa.local.pcfdev.io
+
+# targeting UAA server
+uaac target $UAAHOST --skip-ssl-validation
+
+# authenticating with admin
+uaac token client get $ADMIN -s $ADMINPASSWD
+```
+
+##  Output
+
+```
+Target: https://uaa.local.pcfdev.io
+Context: admin, from client admin
+
+Successfully fetched token via client credentials grant.
+Target: https://uaa.local.pcfdev.io
+Context: admin, from client admin
+```
 
 ## References
 
