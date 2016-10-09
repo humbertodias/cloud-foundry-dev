@@ -5,11 +5,11 @@ PCF Dev is the simplest way to get a complete Cloud Foundry on a single machine.
 
 ## Prerequires
 
-1. Git 2.9+
-2. VirtualBox 5+
-3. Vagrant 1.8+
-4. Cloud Foundry Command Line Interface 6+
-5. Pivotal Account
+1. [Git](https://git-scm.com/downloads) 2.9+
+2. [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 5+
+3. [Vagrant](https://www.vagrantup.com/downloads.html) 1.8+
+4. [Cloud Foundry Command Line Interface](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html) 6+
+5. [Pivotal Account](https://network.pivotal.io)
 
 ## How to Play
 
@@ -80,7 +80,7 @@ Admin user => Email: admin / Password: admin
 Regular user => Email: user / Password: pass
 ```
 
-## Infomation
+## Information
 
 Acess on browser [http://api.local.pcfdev.io/v2/info](http://api.local.pcfdev.io/v2/info)
 
