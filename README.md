@@ -83,6 +83,37 @@ Regular user => Email: user / Password: pass
 
 ![Preview](doc/cf-login.png)
 
+## Infomation
+
+Acess on browser [http://api.local.pcfdev.io/v2/info](http://api.local.pcfdev.io/v2/info)
+
+![Preview](doc/pcfdev-info.png)
+
+
+## Remote Access
+
+SSH connection
+
+```
+ssh vcap@ssh.local.pcfdev.io
+```
+
+Use **vcap** as user and password.
+
+```
+ssh vcap@ssh.local.pcfdev.io
+vcap@ssh.local.pcfdev.io's password: 
+Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.19.0-69-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+Last login: Sun Oct  9 03:44:07 2016 from 192.168.11.1
+
+vcap@agent-id-pcfdev-0:~$ uname -a
+Linux agent-id-pcfdev-0 3.19.0-69-generic #77~14.04.1-Ubuntu SMP Tue Aug 30 01:29:21 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+```
+
+
+
 ## References
 
 1. PCF-Dev Doc
