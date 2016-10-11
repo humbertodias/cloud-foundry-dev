@@ -28,19 +28,19 @@ cd vagrant-cloud-foundry-dev
 Unzip and Run it for your platform
 
 ```
-unzip pcfdev-v0.20.0+PCF1.8.0-osx.zip && ./pcfdev-v0.20.0+PCF1.8.0-osx && cf dev start
+unzip pcfdev-v0.21.0+PCF1.8.2-osx.zip && ./pcfdev-v0.21.0+PCF1.8.2-osx && cf dev start
 ```
 
 or
 
 ```
-unzip pcfdev-v0.20.0+PCF1.8.0-linux.zip && ./pcfdev-v0.20.0+PCF1.8.0-linux && cf dev start
+unzip pcfdev-v0.21.0+PCF1.8.2-linux.zip && ./pcfdev-v0.21.0+PCF1.8.2-linux && cf dev start
 ```
 
 or
 
 ```
-unzip pcfdev-v0.20.0+PCF1.8.0-windows.zip && pcfdev-v0.20.0+PCF1.8.0-windows.exe && cf dev start
+unzip pcfdev-v0.21.0+PCF1.8.2-windows.zip && pcfdev-v0.21.0+PCF1.8.2-windows.exe && cf dev start
 ```
 
 Finally, access your Pivotal User profile to take the API Token
