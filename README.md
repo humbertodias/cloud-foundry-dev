@@ -7,9 +7,8 @@ PCF Dev is the simplest way to get a complete Cloud Foundry on a single machine.
 
 1. [Git](https://git-scm.com/downloads) 2.9+
 2. [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 5+
-3. [Vagrant](https://www.vagrantup.com/downloads.html) 1.8+
-4. [Cloud Foundry Command Line Interface](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html) 6+
-5. [Pivotal Account](https://network.pivotal.io)
+3. [Cloud Foundry Command Line Interface](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html) 6+
+4. [Pivotal Account](https://network.pivotal.io)
 
 ## How to Play
 
@@ -28,19 +27,19 @@ cd vagrant-cloud-foundry-dev
 Unzip and Run it for your platform
 
 ```
-unzip pcfdev-v0.22.0+PCF1.8.2-osx.zip && ./pcfdev-v0.22.0+PCF1.8.2-osx && cf dev start
+unzip pcfdev-v0.24.0+PCF1.9.0-osx.zip && ./pcfdev-v0.24.0+PCF1.9.0-osx && cf dev start
 ```
 
 or
 
 ```
-unzip pcfdev-v0.22.0+PCF1.8.2-linux.zip && ./pcfdev-v0.22.0+PCF1.8.2-linux && cf dev start
+unzip pcfdev-v0.24.0+PCF1.9.0-linux.zip && ./pcfdev-v0.24.0+PCF1.9.0-linux && cf dev start
 ```
 
 or
 
 ```
-unzip pcfdev-v0.22.0+PCF1.8.2-windows.zip && pcfdev-v0.22.0+PCF1.8.2-windows.exe && cf dev start
+unzip pcfdev-v0.24.0+PCF1.9.0-windows.zip && pcfdev-v0.24.0+PCF1.9.0-windows.exe && cf dev start
 ```
 
 Finally, access your Pivotal User profile to take the API Token
