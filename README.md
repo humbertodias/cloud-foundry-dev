@@ -15,13 +15,13 @@ PCF Dev is the simplest way to get a complete Cloud Foundry on a single machine.
 Clone
 
 ```
-git clone https://github.com/humbertodias/vagrant-cloud-foundry-dev.git
+git clone https://github.com/humbertodias/cloud-foundry-dev.git
 ```
 
 Inside the folder
 
 ```
-cd vagrant-cloud-foundry-dev
+cd cloud-foundry-dev
 ```
 
 Unzip and Run it for your platform
